@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Lunch from '../views/Lunch.vue'
+import Lotto from '../views/Lotto.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ Vue.use(VueRouter)
     path: '/lunch',
     name: 'Lunch',
     component: Lunch
+  },
+  {
+    path: '/lotto',
+    name: 'Lotto',
+    component: Lotto
   }
 ]
 
